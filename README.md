@@ -1,2 +1,2 @@
 # NVD-NIST Parser
-PingBing is a component alert system. It parses to NVD and GitHub DOM source and information to you about your product releases or vulnerabilities.
+NVD-NIST Parser is a parser service. It parses to NVD source and information to you about your product vulnerabilities.
