@@ -3,10 +3,10 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Threading.Tasks;
-using PingPing.NVDParser.Abstract;
-using PingPing.NVDParser.Entities;
+using NVDParser.Parser.Abstract;
+using NVDParser.Parser.Entities;
 
-namespace PingPing.NVDParser.Concrete
+namespace NVDParser.Parser.Concrete
 {
     public class AffectedCPEParser : IAffectedCPEParser
     {

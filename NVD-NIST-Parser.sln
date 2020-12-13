@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVD-NIST-Parser.API", "NVD-NIST-Parser.API\NVD-NIST-Parser.API.csproj", "{E08AC5C5-9DC5-4F4A-A25B-10894D0775DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVD-NIST-Parser.Entities", "NVD-NIST-Parser.Entities\NVD-NIST-Parser.Entities.csproj", "{35269FD2-1D6F-4023-8B12-CA7FCDC3FC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVD-NIST-Parser.Core", "NVD-NIST-Parser.Core\NVD-NIST-Parser.Core.csproj", "{CF721514-F6CD-4C5E-B199-FB4FB9B1AC4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVD-NIST-Parser.NVDParser", "NVD-NIST-Parser.NVDCollector\NVD-NIST-Parser.NVDParser.csproj", "{8939B836-48B2-45AA-BF70-B803A2BB3732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVD-NIST-Parser.Parser", "NVD-NIST-Parser.Parser\NVD-NIST-Parser.Parser.csproj", "{33CAA4BA-6D62-4BAB-86B7-5B929467C481}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{E08AC5C5-9DC5-4F4A-A25B-10894D0775DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08AC5C5-9DC5-4F4A-A25B-10894D0775DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08AC5C5-9DC5-4F4A-A25B-10894D0775DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35269FD2-1D6F-4023-8B12-CA7FCDC3FC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35269FD2-1D6F-4023-8B12-CA7FCDC3FC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35269FD2-1D6F-4023-8B12-CA7FCDC3FC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35269FD2-1D6F-4023-8B12-CA7FCDC3FC23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8939B836-48B2-45AA-BF70-B803A2BB3732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8939B836-48B2-45AA-BF70-B803A2BB3732}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8939B836-48B2-45AA-BF70-B803A2BB3732}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8939B836-48B2-45AA-BF70-B803A2BB3732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF721514-F6CD-4C5E-B199-FB4FB9B1AC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF721514-F6CD-4C5E-B199-FB4FB9B1AC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF721514-F6CD-4C5E-B199-FB4FB9B1AC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF721514-F6CD-4C5E-B199-FB4FB9B1AC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CAA4BA-6D62-4BAB-86B7-5B929467C481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CAA4BA-6D62-4BAB-86B7-5B929467C481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CAA4BA-6D62-4BAB-86B7-5B929467C481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CAA4BA-6D62-4BAB-86B7-5B929467C481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

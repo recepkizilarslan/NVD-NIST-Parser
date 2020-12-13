@@ -2,10 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PingPing.NVDParser.Abstract;
-using System.Threading.Tasks;
+using NVDParser.Parser.Abstract;
 
-namespace PingPing.API.Controllers
+namespace NVDParser.API.Controllers
 {
     [ApiController]
     [Route("api/")]

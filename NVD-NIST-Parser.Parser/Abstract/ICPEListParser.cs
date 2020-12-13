@@ -1,7 +1,7 @@
-﻿using PingPing.NVDParser.Entities;
+﻿using NVDParser.Parser.Entities;
 using System.Collections.Generic;
 
-namespace PingPing.NVDCollector.Abstract
+namespace NVDParser.Parser.Abstract
 {
     public interface ICPEListParser
     {

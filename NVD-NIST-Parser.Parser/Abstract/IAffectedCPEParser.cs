@@ -1,8 +1,8 @@
-﻿using PingPing.NVDParser.Entities;
+﻿using NVDParser.Parser.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace PingPing.NVDParser.Abstract
+namespace NVDParser.Parser.Abstract
 {
     public interface IAffectedCPEParser
     {

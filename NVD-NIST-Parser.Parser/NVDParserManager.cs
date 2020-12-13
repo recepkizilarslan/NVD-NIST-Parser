@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using NVDParser.Core;
+using NVDParser.Parser.Abstract;
+using NVDParser.Parser.Entities;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using PingPing.Entities;
-using PingPing.NVDCollector.Abstract;
-using PingPing.NVDParser.Abstract;
-using PingPing.NVDParser.Entities;
 
-namespace PingPing.SpyShark
+namespace NVDParser.Parser
 {
     /// <summary>
     /// This class provides to manage to NVD parsing procces.

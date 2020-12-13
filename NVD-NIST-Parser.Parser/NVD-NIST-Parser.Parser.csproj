@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NVD-NIST-Parser.Entities\NVD-NIST-Parser.Entities.csproj" />
+    <ProjectReference Include="..\NVD-NIST-Parser.Core\NVD-NIST-Parser.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PingPing.NVDParser.Abstract
+namespace NVDParser.Parser.Abstract
 {
     public interface ICVEListParser
     {

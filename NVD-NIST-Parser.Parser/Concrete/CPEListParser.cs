@@ -1,10 +1,10 @@
 ﻿using HtmlAgilityPack;
-using PingPing.NVDCollector.Abstract;
-using PingPing.NVDParser.Entities;
+using NVDParser.Parser.Abstract;
+using NVDParser.Parser.Entities;
 using System;
 using System.Collections.Generic;
 
-namespace PingPing.NVDCollector.Concrete
+namespace NVDParser.Parser.Concrete
 {
     public class CPEListParser:ICPEListParser
     {

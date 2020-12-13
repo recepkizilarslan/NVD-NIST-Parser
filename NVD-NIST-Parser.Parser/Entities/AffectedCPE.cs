@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PingPing.NVDParser.Entities
+namespace NVDParser.Parser.Entities
 {
     public class AffecteCPE
     {

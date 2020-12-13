@@ -1,6 +1,8 @@
-﻿using PingPing.NVDParser.Entities;
+﻿
 
-namespace PingPing.NVDParser.Abstract
+using NVDParser.Parser.Entities;
+
+namespace NVDParser.Parser.Abstract
 {
     public interface IDetailsParser
     {

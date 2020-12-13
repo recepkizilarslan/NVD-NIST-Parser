@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using HtmlAgilityPack;
-using PingPing.NVDParser.Abstract;
+using NVDParser.Parser.Abstract;
 
-namespace PingPing.NVDParser.Concrete
+namespace NVDParser.Parser.Concrete
 {
     public class CVEListParser : ICVEListParser
     {

@@ -1,8 +1,8 @@
-﻿using PingPing.Entities;
+﻿using NVDParser.Core;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace PingPing.NVDParser.Abstract
+namespace NVDParser.Parser.Abstract
 {
     public  interface INVDParserManager
     {
