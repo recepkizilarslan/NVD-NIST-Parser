@@ -7,6 +7,7 @@ NVD-NIST Parser is a parser service. It parses to NVD source and information to 
 
 ### Simple usage:
 Now it service has only 2 endpoint. One of provides to get all vulnerabilities of your product.
+
 Request url :
 ```sh
 /api/GetAllVulnerabilities?vendorName=wordpress&productName=wordpress
@@ -29,7 +30,7 @@ Response :
   .....
   .....
 ```
-And other one is gettting vullnerabilities detail
+And other one is gettting vulnerabilities details :
 
 Request url :
 ```sh
